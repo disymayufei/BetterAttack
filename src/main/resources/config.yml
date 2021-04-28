@@ -26,6 +26,21 @@ weapon:
     enchant:
       unbreaking:
         1
+        
+  stone_sword:
+    name: 石中剑
+    star: 2
+    damage: 5
+    attack_speed: 2.2
+    durability: 150
+    success_attack_rate_add: 0.1
+    crit_rate: 0.12
+    crit_damage: 0.5
+    level_repression: -0.01
+    level_repression_limit: 0
+    enchant:
+      sharpness:
+        1
 
 #添加rpg游戏场地
 game_field:
