@@ -7,19 +7,33 @@ weapon:
     #星级(1-5)，必须
     star: 1
     #伤害值，必须
-    damage: 5
+    damage: 
+      value: 5
+      add_per_level: 0
     #攻速
-    attack_speed: 1.6
+    attack_speed: 
+      value: 1.6
+      add_per_level: 0
     #耐久
-    durability: 50
+    durability: 
+      value:50
+      add_per_level: 0
     #攻击成功率加成(反闪避)
-    success_attack_rate_add: 0
+    success_attack_rate_add: 
+      value: 0
+      add_per_level: 0
     #暴击率
-    crit_rate: 0.05
+    crit_rate: 
+      value: 0.05
+      add_per_level: 0
     #暴击加成系数(0.5就是多50%伤害)
-    crit_damage: 0.5
+    crit_damage: 
+      value: 0.5
+      add_per_level: 0
     #等级压制系数(可以是负数，等级低的玩家更容易胜利)高一级伤害多的系数
-    level_repression: -0.01
+    level_repression: 
+      value: -0.01
+      add_per_level: 0
     #等级压制上限
     level_repression_limit:
       value: 0
@@ -32,13 +46,27 @@ weapon:
   stone_sword:
     name: 石中剑
     star: 2
-    damage: 6
-    attack_speed: 2.2
-    durability: 75
-    success_attack_rate_add: 0.05
-    crit_rate: 0.15
-    crit_damage: 0.5
-    level_repression: 0
+    damage: 
+      value: 6
+      add_per_level: 0
+    attack_speed: 
+      value: 2.2
+      add_per_level: 0
+    durability: 
+      value: 75
+      add_per_level: 0
+    success_attack_rate_add: 
+      value: 0.05
+      add_per_level: 0
+    crit_rate: 
+      value: 0.15
+      add_per_level: 0
+    crit_damage: 
+      value: 0.5
+      add_per_level: 0
+    level_repression: 
+      value: 0
+      add_per_level: 0
     level_repression_limit:
       value: 0
       add_per_level: 1
@@ -49,13 +77,27 @@ weapon:
   diamond_sword:
     name: 流星战刃
     star: 5
-    damage: 15
-    attack_speed: 4
-    durability: 1800
-    success_attack_rate_add: 0.05
-    crit_rate: 0.4
-    crit_damage: 0.75
-    level_repression: 0.4
+    damage: 
+      value: 15
+      add_per_level: 0
+    attack_speed: 
+      value: 4
+      add_per_level: 0
+    durability: 
+      value: 1800
+      add_per_level: 0
+    success_attack_rate_add: 
+      value: 0.05
+      add_per_level: 0
+    crit_rate: 
+      value: 0.4
+      add_per_level: 0
+    crit_damage: 
+      value: 0.75
+      add_per_level: 0
+    level_repression: 
+      value: 0.4
+      add_per_level: 0
     level_repression_limit:
       value: 8
       add_per_level: 1
